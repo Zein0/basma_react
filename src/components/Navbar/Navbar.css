@@ -1,0 +1,40 @@
+.Navbar-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 50%;
+	position: absolute;
+	top: 2%;
+	right: 8%;
+	z-index: 3;
+	color: white;
+}
+
+.Navbar-mobile {
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	z-index: 3;
+	width: 98%;
+	color: white;
+}
+.Navbar-mobile svg {
+	color: black;
+	font-size: xx-large;
+	width: 100%;
+}
+.Navbar-flex-mobile {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: #5812ed;
+	color: white;
+	text-align: center;
+	height: 40vh;
+}
+@media screen and (max-width: 920px) {
+	.Navbar-flex {
+		width: 60%;
+		right: 0%;
+	}
+}

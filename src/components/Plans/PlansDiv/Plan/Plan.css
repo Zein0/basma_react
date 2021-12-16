@@ -1,0 +1,34 @@
+.Plan {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 46%;
+	box-shadow: -1px 1px 2px 1px rgba(143, 136, 136, 0.3);
+	background-color: white;
+	border-radius: 3%;
+	align-items: center;
+	padding: 2em 0;
+	position: relative;
+}
+.Plan-img {
+	width: 20%;
+}
+.Plan-cost {
+	margin-top: 0;
+	color: #5812ed;
+}
+.Plan-break {
+	width: 75%;
+	opacity: 0.1;
+}
+.Plan-button {
+	position: absolute;
+	top: 97%;
+}
+@media screen and (max-width: 600px) {
+	.Plan:first-of-type {
+		margin-bottom: 15%;
+	}
+	.Plan {
+		flex: 1 0 50%;
+	}
+}

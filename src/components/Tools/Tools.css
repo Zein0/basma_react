@@ -1,0 +1,57 @@
+.Tools-flex {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+	margin-top: 5%;
+	justify-content: center;
+	background-color: rgba(190, 225, 225, 0.19);
+	padding: 4em 2em;
+}
+.Tools-flex-text {
+	flex: 0.8 0 50%;
+	display: flex;
+	flex-direction: column;
+}
+.Tools-flex-text h1 {
+	margin-bottom: 0;
+	font-size: 2.5em;
+}
+.Tools-flex-image {
+	max-height: 60vh;
+	flex: 0 0 50%;
+	display: flex;
+	justify-content: center;
+}
+.Tools-flex-image img {
+	max-height: inherit;
+}
+.basma-button {
+	width: fit-content;
+	padding: 0.5em 1em;
+	background-color: #5812ed;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
+.icon-flex {
+	display: flex;
+	column-gap: 3%;
+}
+.icon-flex svg {
+	padding: 0.5em;
+	background-color: white;
+	box-shadow: -1px 1px 2px 1px rgba(143, 136, 136, 0.3);
+	color: #5812ed;
+	font-size: larger;
+}
+@media only screen and (min-width: 890px) {
+	.Tools-flex-text h1 {
+		font-size: 3.2em;
+	}
+}
+@media only screen and (max-width: 570px) {
+	.Tools-flex-text {
+		flex: 0.8 0 51%;
+	}
+}

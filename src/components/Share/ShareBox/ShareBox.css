@@ -1,0 +1,6 @@
+.ShareBox-flex {
+	display: flex;
+	width: 80%;
+	flex-direction: column;
+	margin-top: 5%;
+}

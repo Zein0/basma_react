@@ -1,0 +1,27 @@
+.PlansHelp-flex {
+	display: flex;
+	flex-direction: column;
+	background-color: #5812ed;
+	padding: 4em;
+	color: white;
+}
+.PlansHelp-title h1 {
+	text-align: center;
+}
+.PlansHelp-title-text {
+	text-align: center;
+	margin-top: 0;
+}
+
+.PlansHelp-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 63%;
+	margin: auto;
+}
+.PlansHelp-content {
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+}

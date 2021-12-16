@@ -1,0 +1,32 @@
+.Features-flex {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+	margin-top: 5%;
+	justify-content: center;
+}
+.Features-title h1 {
+	text-align: center;
+	margin-bottom: 0;
+}
+.Features-title-text {
+	text-align: center;
+	margin-top: 0;
+}
+
+.Features-title hr {
+	color: #5812ed;
+	width: 7%;
+}
+.Features-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 63%;
+}
+.Features-content {
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+}

@@ -1,0 +1,33 @@
+.Stores-flex {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	padding: 2em 0;
+	margin: auto;
+	background: linear-gradient(rgba(30, 25, 91, 0.7), rgba(30, 25, 91, 0.7)),
+		url("../../assets/download-bg.jpeg");
+
+	background-size: cover;
+	text-align: center;
+	color: white;
+	margin-bottom: 2%;
+}
+.Stores-text {
+	width: 63%;
+	margin: auto;
+}
+.Stores-stores {
+	display: flex;
+	width: 63%;
+	margin: auto;
+	column-gap: 2%;
+	justify-content: center;
+	margin-bottom: 2%;
+}
+.Stores-stores img {
+	width: 30%;
+}
+.Stores-note {
+	width: 63%;
+	margin: auto;
+}

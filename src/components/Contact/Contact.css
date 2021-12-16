@@ -1,0 +1,87 @@
+.Contact-flex {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: auto;
+	margin-top: 5%;
+	justify-content: center;
+	background-color: rgba(190, 225, 225, 0.19);
+	padding: 4em;
+}
+.Contact-text {
+	width: 63%;
+	margin: auto;
+	text-align: center;
+}
+.Contact-text h1 {
+	margin-bottom: 0;
+}
+.Contact-text hr {
+	color: #5812ed;
+	width: 7%;
+}
+
+.Contact-form {
+	flex-wrap: wrap;
+	margin-top: 5%;
+	display: flex;
+	column-gap: 16%;
+}
+
+.Contact-form-sect1 {
+	flex: 1 0 42%;
+	display: flex;
+	flex-direction: column;
+}
+.Contact-form-sect1 p {
+	margin-bottom: 5%;
+}
+.Contact-form-info {
+	display: flex;
+	column-gap: 5%;
+	margin-bottom: 3%;
+}
+
+.Contact-form-info p {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.Contact-form-info svg {
+	padding: 0.5em;
+	color: white;
+	box-shadow: -1px 1px 2px 1px rgba(143, 136, 136, 0.3);
+	background-color: #5812ed;
+	font-size: larger;
+}
+.Contact-form-sect2 {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 42%;
+	margin: auto;
+}
+
+.Contact-form-text {
+	border: none;
+	box-shadow: -1px 1px 2px 1px rgba(143, 136, 136, 0.3);
+	margin-bottom: 2%;
+	padding: 0.5em;
+}
+.Contact-form-text:focus {
+	outline: none;
+}
+.Contact-form-text.basma-button svg {
+	margin-right: 3%;
+}
+.Contact-form-text.basma-button {
+	width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+	.Contact-form-sect1 {
+		flex: 1 0 52%;
+	}
+	.Contact-form-sect2 {
+		flex: 1 0 52%;
+	}
+}

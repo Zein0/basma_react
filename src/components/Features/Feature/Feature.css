@@ -1,0 +1,16 @@
+.Feature-flex {
+	flex: 1 0 30%;
+	padding: 0.6em;
+}
+.Feature-flex .icon {
+	text-align: center;
+	font-size: 3em;
+	color: gray;
+}
+.Feature-flex p {
+	margin-top: 0;
+	text-align: center;
+}
+.Feature-flex h2 {
+	text-align: center;
+}

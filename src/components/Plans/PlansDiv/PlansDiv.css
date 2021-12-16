@@ -1,0 +1,39 @@
+.PlansDiv-flex {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 3em 0;
+	background-color: rgba(190, 225, 225, 0.19);
+}
+.PlansDiv-title h1 {
+	text-align: center;
+	margin-bottom: 0;
+}
+.PlansDiv-title-text {
+	text-align: center;
+	margin-top: 0;
+}
+.PlansDiv-title hr {
+	color: #5812ed;
+	width: 7%;
+}
+.PlansDiv-title {
+	display: flex;
+	width: 63%;
+	margin: auto;
+	flex-direction: column;
+	justify-content: center;
+}
+.PlansDiv-content {
+	margin: auto;
+	margin-top: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	column-gap: 5%;
+	margin-bottom: 5%;
+	width: 63%;
+}
+u {
+	cursor: pointer;
+}

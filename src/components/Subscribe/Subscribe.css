@@ -1,0 +1,36 @@
+.Subscribe-flex {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin: auto;
+}
+.Subscribe-text {
+	text-align: center;
+	background-repeat: url("../../assets/newsletter-background.png");
+	background-size: cover;
+}
+.Subscribe-text h1 {
+	margin-bottom: 0;
+}
+.Subscribe-form {
+	margin-top: 3%;
+}
+.Subscribe-form-text,
+.Subscribe-form-button {
+	width: 100%;
+}
+.Subscribe-form-text {
+	border: none;
+	box-shadow: -1px 1px 2px 1px rgba(143, 136, 136, 0.3);
+	text-align: center;
+	font-size: larger;
+	margin-bottom: 2%;
+}
+.Subscribe-form-text:focus {
+	outline: none;
+}
+@media screen and (max-width: 950px) {
+	.Subscribe-flex {
+		width: 60%;
+	}
+}
